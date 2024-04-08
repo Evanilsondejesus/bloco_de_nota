@@ -12,7 +12,7 @@ site do projetos: <a href="https://evanilsondejesus.github.io/bloco_de_nota/" ta
 <img align="center" alt="acao_bloco_de_nota" src="https://github.com/Evanilsondejesus/galeria/blob/main/img/edite_bloco_de_nota.svg" /> 
 
 ## Versão mobile:
-<div style="display: flex;">
+<div  display="flex" >
 <img align="center" alt="versao_mobile" src="https://github.com/Evanilsondejesus/galeria/blob/main/img/bloco_de_notas_mobile.png" /> 
 <img align="center" alt="versao_mobile" src="https://github.com/Evanilsondejesus/galeria/blob/main/img/bloco_nota_mobile_editar.png" /> 
 
