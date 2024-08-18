@@ -1,24 +1,11 @@
+//configuração mobile
 
-//let btnMenu = document.getElementById('btn-menu')
-
-
-//let menu = document.getElementById('menu-mobile')
 let overlay = document.getElementById('overlay-menu')
-
-
-
-
-
-
 let abrir = document.getElementById('meu-menu');
 let lateral = document.getElementById('lateral');
 let new_chat = document.getElementById('new_chat');
 let fechar = document.getElementById('btn-fechar');
 let titulos = document.getElementById('container_titulos');
-
-//
-
-
 
 fechar.style.display ="none";
 
@@ -35,13 +22,6 @@ abrir.addEventListener('click', ()=>{
 overlay.addEventListener('click', ()=>{
   FecharMenu();
 })
-
-
-
-
-
-
-
 
 
 
