@@ -1,80 +1,97 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Editor texto</title>
-    <link rel="icon" href="imagens/pencil-square.png" type="image/x-icon">
-    <link rel="shortcut icon" href="imagens/pencil-square.png" type="image/x-icon">
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    
-    <link rel="stylesheet" href="css/estilos.css">
-     <script src="js/mobile.js" defer></script>
-     <script src="js/index.js" defer></script>
-     <script src="js/editar_nota.js"></script>
-     <script src="js/ler_nota.js"></script>
-     <script src="js/apresentacao_bloco_nota.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Editor de Texto</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/init.css">
+
+  <link rel="stylesheet" href="css/conteudo.css">
+  <script src="js/global.js" defer></script>
+   <script src="js/init.js" defer></script>
+  <script src="js/index.js" defer></script>
+  <script src="js/ai.js" defer></script>
+
+  <script src="js/conteudo.js" defer></script>
+  <script src="js/Mobile.js" defer></script>
+  <script src="js/read.js" defer></script>
+  
+
+ <!-- 
+sabendo que poderia criar esse projeto em Next js, decidir programar tudo na mão, por contar de hospedagem é muito mais e a velocidade ser mais rápido do que outras hospedagem gratuitas
+irei procurar soluções melhore do firebase que possa rederir o mesmo código mais ainda com melhor rápidez, 
+O codigo deixa claro que o desenvolvedor tem boa lógica de programação e está apto pra ser desenvolvedor Junior ou trabalhar no estágio
+ 
+-->
+
 </head>
-<body> 
+<body>
 
     
-
-
-
-
+  <div id="conteiner"></div>
+ 
+  
     
 <div class="main_container">
 
-<div > <!--mobile-->
-<div id="btn-fechar"  >
-<img src="imagens/x-circle.svg" alt=""  >
-</div>
-      
-      
-<div class="btn-abrir-menu" id="meu-menu"  >
-<img src="imagens/list.svg" alt="">
-</div>
+  <div >  <!-- container de butao -->
 
-
-</div>
- 
-
-
-
-
+  <div id="btn-fechar"  >
+  <img src="imagens/x-circle.svg" alt=""   >
+  
+  </div>
+        
+        
+  <div class="btn-abrir-menu" id="meu-menu"  >
+  <img src="imagens/list.svg" alt="">
+  </div>
+  </div>
+    
+     
+  <div class="grid_contaner">
+  <div class="left_side_history " id="lateral">
+  
+  <div class="new_chat" id="new_chat">
+  <h2> <img src="imagens/mais.png" alt="">New Chat</h2>
+  </div>
    
-<div class="grid_contaner">
-<div class="left_side_history " id="lateral">
-
-<div class="new_chat" id="new_chat">
-<h2> <img src="imagens/mais.png" alt="">New Chat</h2>
-</div>
- 
-
-<div class="container_titulos"   id="container_titulos"></div>
-
-
-
-</div>
-
-
-
-
-
-
-<div class="container_texto" id="conteiner_texto"  >
-<div  id="container_conteudo">
-</div>
-</div>   <div class="overlay-menu" id="overlay-menu"></div>
-
-</div>
-
-
-         
-
-</div> 
-
+  
+  <div class="container_titulos"   id="container_titulos">  <!-- container para dispositivo mobile -->
+  </div>
+  
+  
+  
+  </div> 
+  
+  
+  
+  
+  
+  
+  <div class="container_texto" id="conteiner_texto"  >
+  <div  id="container_conteudo">
+  </div>
+  </div>   <div class="overlay-menu" id="overlay-menu"></div>
+  
+  </div>
+  
+  
+           
+  
+  </div>     
 
 </body>
-</html>
+</html> 
+
+
+
+
+
+
+
+
+
+
+ 
